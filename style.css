@@ -1,0 +1,67 @@
+body {
+	font-family: Calibri , sans-serif;
+	padding:  2% 20% 2% 20%;
+	background-image: url("desert.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	}
+h2 {
+	border-width: 10px;
+	border-radius:10px;
+	background-color: #E6E6E8;
+	color: #9D9D98;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+h4 {
+	text-shadow: 2px 2px 4px black ;
+	text-decoration: underline;
+}
+span{
+	text-shadow: 2px 2px 4px black;
+	font-size: 20px;
+}
+a {
+	color: black;
+}
+ul{
+	list-style-type: none;
+}
+
+@media screen and (min-device-width : 750px){
+
+	
+}
+#tete{
+	width: 100%;
+	height: 152px;
+}
+#pied{
+	width: 100%;
+}
+#image{
+	height: 152px;
+}
+section{
+	background-image: url("section.png");
+	padding: 4px;
+	background-size: contain;
+	text-align: center;
+	align-items: center;
+}
+article img{
+	width: 10%;
+	animation-name: rotate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes rotate{
+	from{ 
+
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
